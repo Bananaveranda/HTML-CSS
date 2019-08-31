@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop: Catalog</title>
+</head>
+<body>
+	<div class="header">
+		<img src="img/logo.jpg" alt="logo">
+		<h2>Меню:</h2>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="#">Каталог</a></li>
+			<li><a href="contacts.html">Контакты</a></li>    
+		</ul> 
+	</div>
+	<div class="mainbody">
+		<hr>
+		<h1>Каталог</h1>
+		<div class="thumb">
+			<figure>
+				<a  title="SUUNTO SPARTAN SPORT" href="art1.html"><img src="img/spartan%20sport.jpg" alt="suunto spartan sport"></a>
+				<figcaption>SUUNTO SPARTAN SPORT</figcaption>
+			</figure>
+			<figure>
+				<a  title="SUUNTO SPARTAN ULTRA" href="art2.html"><img src="img/spartan%20ultra.jpg" alt="suunto spartan ultra"></a>
+				<figcaption>SUUNTO SPARTAN ULTRA</figcaption>
+			</figure>
+			<figure>
+				<a  title="SUUNTO SPARTAN TRAINER" href="art3.html"><img src="img/spartan%20trainer.jpg" alt="suunto spartan trainer"></a>
+				<figcaption>SUUNTO SPARTAN TRAINER</figcaption>
+			</figure>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<p>&copy; Все права защищены. 2019</p>
+    </div> 
+	
+</body>
+</html>
