@@ -1,0 +1,165 @@
+
+body {
+	background-color: #f8f8f8;
+}
+
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: black;
+	font-weight: bold;
+	font-size : 14px;
+}
+
+.header img {
+	position: absolute;	
+	top: 15px;
+	right: 15px;
+	border: 1px solid black;
+	width: 300px;
+	height: 150px;
+}
+
+.header li {
+	list-style: none; 
+	width: 150px;
+}
+
+.header li a {
+   display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+   padding: 10px 20px 10px;  /* Внутри блочные отступы. */
+   background: DarkGrey; /* Цвет блоков меню. */
+   color: #3f3f3f; /* Цвет текста в блоках меню. */
+   text-decoration: none; /* Устранение подчёркивания ссылок. */
+}
+
+.header li a:hover {
+   background: #92d3d3; /* Цвет блока при наведении курсора. */
+   color: #6b6b6b;  /* Цвет текста при наведении курсора. */
+}
+ 
+.mainbody {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #eaeaea;
+	font: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.mainbody h1 {
+	line-height: 2em;
+}
+
+.mainbody p {
+	line-height: 1em;
+	font-style: italic;
+}
+
+.thumb figure {
+	width: 15%;
+	margin: 1%;
+	display: inline-block;
+}
+
+.thumb img {
+	width: 200px;
+	height: 200px;
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+}
+
+.thumb figcaption {
+	padding: 2px;
+	text-align: center;
+	font-style: italic;
+}
+
+.mainbody h3 {
+	padding:0;
+	text-align: center;
+	font-weight: bold;
+	font-size : 18px;
+}
+
+.mainbody img {
+	float:left;
+	width: 200px;
+	height: 200px;
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 20px 50px 50px 50px; /* Отступы вокруг */
+	text-decoration: none;
+	display: block;
+}
+
+.mainbody img:hover {
+	float:left;
+	width: 200px;
+	height: 200px;
+    border: 1px solid transparent; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 20px 50px 50px 50px; /* Отступы вокруг */
+}
+
+.art p:first-letter {
+	color: red;
+	font-size: 20px; 
+}
+
+.shortchar {
+	color: #707070;  /*Цвет текста  */
+	font-size: 14px;  /*Размер шрифта  */
+	font-style: italic;  /*  Начертание шрифта   */
+	line-height: 16px;  /*  Высота текста  */
+}
+
+.shortchar table {
+	display: block;
+	margin: auto;
+	border: 1px solid #000;
+	width: 800px;
+}
+
+.shortchar table td{
+	border: 1px solid #000;
+	line-height: 50px;
+	width: 300px;
+	height:100px;
+}
+
+.longchar {
+	color: #484343;
+	margin-left: 50px;
+	font-size: 16px; /* размер шрифта  */
+	font-weight: 400; /* Насыщенность шрифта */
+	line-height: 24px; /*    Высота текста */
+	text-align: left;	/* Расположение текста по левому краю */
+}
+
+.input p{
+
+}
+.input input[type="text"]{
+	text-transform: capitalize;
+	width: 800px;
+	height: 40px;
+	color: #7A000D;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.input input[placeholder="E-mail"]:focus {
+	color: red;
+	background-color: orange;
+}
+
+.footer {
+	border:1px solid black;
+	background-color: Grey;
+	line-height: 6em;
+	text-align: center;
+	font-weight: bold;
+	width: 100%
+}
+
