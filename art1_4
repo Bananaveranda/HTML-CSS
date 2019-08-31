@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop:SUUNTO SPARTAN SPORT</title>
+</head>
+<body>
+	<div class="header">
+		<img src="img/logo.jpg" alt="logo">
+		<h2>Меню:</h2>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="catalog.html">Каталог</a></li>
+			<li><a href="contacts.html">Контакты</a></li>    
+		</ul> 
+	</div>
+	<div class="mainbody">
+	<div class="art">
+		<hr>
+		<h1>Часы SUUNTO SPARTAN SPORT</h1>
+		<a href="img/spartan%20sport.jpg" target="_blank">
+			<img src="img/spartan%20sport.jpg" alt="suunto spartan sport">
+		</a>
+		<h3>Описание товара</h3>
+		<p>Компактные GPS-часы для мультиспорта с долгим временем работы от батареи, предназначенные для спорта на выносливость.<p>
+		<h3>Технические характеристики товара</h3>
+		<div class="shortchar">
+			<table>
+				<tr>
+					<td>влагозащищенные</td>
+					<td>cенсорный экран</td>
+					<td>уведомление о входящем звонке</td>
+				</tr>
+				<tr>
+					<td>совместимость с Android, iOS, Windows, OS X</td>
+					<td>мониторинг калорий, физ. активности</td>
+					<td>минеральное стекло</td>
+				</tr>
+			</table>
+		</div>
+		<h3>Подробное описание товара</h3>
+		<div class="longchar">
+			<p>Suunto Spartan Sport — это GPS-часы для мультиспорта, прекрасно сидящие на руке благодаря компактной конструкции и предназначенные для спортсменов, 
+			которые высоко ценят длительное время работы от батареи.  </p>
+			 <p>Часы Spartan Sport, разработанные и изготовленные вручную в Финляндии, всесторонне проверены и готовы противостоять 
+			самым суровым и разнообразным условиям внешней среды. </p> <p> Эти часы не только прекрасно выглядят и отлично подходят для повседневного ношения, но и поддерживают множество
+			спортивных показателей, чтобы вы могли отслеживать эффективность своих тренировок.</p>
+		</div>
+		<br>
+	</div>
+	</div>
+	
+	<div class="footer">
+		<p>&copy; Все права защищены. 2019</p>
+    </div> 
+    
+</body>
+</html>
