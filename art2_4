@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop:SUUNTO SPARTAN ULTRA</title>
+</head>
+<body>
+	<div class="header">
+		<img src="img/logo.jpg" alt="logo">
+		<h2>Меню:</h2>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="catalog.html">Каталог</a></li>
+			<li><a href="contacts.html">Контакты</a></li>    
+		</ul> 
+	</div>
+	<div class="mainbody">
+		<div class="art">
+			<h1>Часы SUUNTO SPARTAN ULTRA All Black Titanium</h1>
+				<a href="img/spartan%20ultra.jpg" target="_blank"><img src="img/spartan%20ultra.jpg" width="300" height="300" alt="suunto spartan ultra"></a>
+			<h3>Описание товара</h3>
+			<p>Долговечные GPS-часы с длительным временем работы от батареи и функциями для занятий на природе.</p>
+			<h3>Технические характеристики товара</h3>
+			<div class="shortchar">
+				<table>
+					<tr>
+						<td>сапфировое стекло</td>
+						<td>совместимость с Android, iOS, Windows, OS X</td>
+						<td>уведомление о входящем звонке</td>
+					</tr>
+					<tr>
+						<td>сенсорный экран</td>
+						<td>мониторинг калорий, физ. активности</td>
+						<td>влагозащищенные</td>
+					</tr>
+				</table>
+			</div>
+			<h3>Подробное описание товара</h3>
+			<div class="longchar">
+				<p>Suunto Spartan Ultra — это прочные GPS-часы для тренировок и состязаний в сложных условиях. </p>
+				<p>Прочный корпус и длительное время работы от батареи позволяют вам сконцентрироваться на своих приключениях. </p>
+				<p>Функции для занятий на природе, такие как барометр и время восхода/заката, помогут вам лучше оценивать окружающую действительность. </p>
+				<p>Часы Spartan Ultra разработаны, произведены и прошли испытания в Финляндии, они рассчитаны на длительный срок службы.</p>
+			</div>
+		</div>
+		<br>
+	</div>
+	<div class="footer">
+		<p>&copy; Все права защищены. 2019</p>
+    </div> 
+   
+</body>
+</html>
