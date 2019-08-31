@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop:SUUNTO SPARTAN TRAINER</title>
+</head>
+<body>
+	<div class = "menu">
+		<a href="catalog.html">Вернуться в каталог</a>
+	</div>
+	<div class="mainbody">
+		<h1>Часы SUUNTO SPARTAN TRAINER</h1>
+		<a href="img/spartan%20trainer.jpg" target="_blank"><img src="img/spartan%20trainer.jpg" alt="suunto spartan trainer"></a>
+		<h3>Описание товара</h3>
+		<p>Легкие и компактные спортивные часы с GPS для различных тренировок и активного образа жизни.</p>
+		<h3>Характеристики товара</h3>
+		<div class="shortchar">
+			<ul>
+				<li>влагозащищенные</li>
+				<li>экран, 218x218</li>
+				<li>уведомление о входящем звонке</li>
+				<li>совместимость с Android, iOS, Windows, OS X</li>
+				<li>мониторинг сна, калорий, физ. активности</li>
+				<li>минеральное стекло</li>
+				<li>вес: 56 г</li>
+			</ul>	
+		</div>
+		<h3>Подробное описание товара</h3>
+		<p id ="longchar">Suunto Spartan Trainer — это GPS-часы с красивым дизайном в компактном корпусе. Они готовы к любым вашим занятиям — плаванию, езде на велосипеде, занятиям в тренажерном зале, бегу. 
+		Датчик частоты сердечных сокращений на запястье отслеживает вашу активность днем и сон ночью, помогая вам находить правильный баланс в жизни и в тренировках. 
+		Часы Spartan Trainer, разработанные в Финляндии, станут вашим помощником в различных тренировках.
+		</p>
+	</div>
+	
+    <p id="footer">&copy; Все права защищены</p>
+    
+</body>
+</html>
