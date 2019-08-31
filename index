@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop</title>
+</head>
+<body>
+	<div class = "menu">
+		<h4>МЕНЮ</h4>
+		<ul>
+			<li><p>Главная</p></li>
+			<li><a href="catalog.html">Каталог</a></li><br>
+			<li><a href="contacts.html">Контакты</a></li>    
+		</ul> 
+	</div>
+	<div class="mainbody">
+		<hr>
+		<h1>Online-shop SUUNTO</h1>
+		<p><i>Welcome to our Online-shop. Feel comfortable to ask for advice, if you need it.</i></p>
+		<hr>
+    </div>
+	
+    <p id="footer">&copy; Все права защищены</p>
+    
+</body>
+</html>
