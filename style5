@@ -1,0 +1,206 @@
+
+body {
+	background-color: #f8f8f8;
+}
+
+ .container {
+	position: relative;
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.header {
+	position:relative;
+	height: 180px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: black;
+	font-weight: bold;
+	font-size : 14px;
+	background-image: url(img/suunto.jpg);
+}
+
+.logo {
+	width: 330px;
+	height: 180px;
+	float:left;
+}
+
+.logo img {
+	float:left;
+	margin-top: 15px;
+	margin-left: 15px;
+	border: 1px solid black;
+	width: 300px;
+	height: 150px;
+}
+
+.menu {
+	float:right;
+	width: 840px;
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none; 
+	width: 250px;
+}
+
+.menu li a {
+	display: block;
+	padding: 10px 20px 10px;  /* Внутри блочные отступы. */
+	background: DarkGrey; /* Цвет блоков меню. */
+	color: #3f3f3f; /* Цвет текста в блоках меню. */
+	text-decoration: none; /* Устранение подчёркивания ссылок. */
+}
+
+
+.menu li a:hover {
+   background: #92d3d3; /* Цвет блока при наведении курсора. */
+   color: #6b6b6b;  /* Цвет текста при наведении курсора. */
+}
+ 
+.mainbody {
+	height:750px;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #eaeaea;
+	font: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.mainbody h1 {
+	line-height: 2em;
+}
+
+.mainbody p {
+	line-height: 1em;
+	font-style: italic;
+}
+
+.figure {
+	display: inline-block;
+}
+
+.figure img {
+	width: 200px;
+	height: 200px;
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+}
+.figure figcaption {
+	padding: 2px;
+	text-align: center;
+	font-style: italic;
+}
+
+.figure a {
+	text-decoration: none;
+	color:black;
+}
+
+.figure a:hover {
+	color: red;
+}
+
+
+
+.mainbody h3 {
+	padding:0;
+	text-align: center;
+	font-weight: bold;
+	font-size : 18px;
+}
+
+.mainbody img {
+	float:left;
+	width: 200px;
+	height: 200px;
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 20px 50px 50px 50px; /* Отступы вокруг */
+	text-decoration: none;
+	display: block;
+}
+
+.mainbody img:hover {
+	float:left;
+	width: 200px;
+	height: 200px;
+    border: 1px solid transparent; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 20px 50px 50px 50px; /* Отступы вокруг */
+}
+
+.art p:first-letter {
+	color: red;
+	font-size: 20px; 
+}
+
+.art input[type="submit"] {
+	width: 200px;
+	height: 50px;	
+}
+
+.art input[type="submit"]:hover {
+	background-color: red;	
+}
+
+.shortchar {
+	color: #707070;  /*Цвет текста  */
+	font-size: 14px;  /*Размер шрифта  */
+	font-style: italic;  /*  Начертание шрифта   */
+	line-height: 16px;  /*  Высота текста  */
+}
+
+.shortchar table {
+	width: 800px;
+	border: 1px solid #000;
+	
+}
+
+.shortchar table td{
+	border: 1px solid #000;
+	line-height: 50px;
+	width: 300px;
+	height:100px;
+}
+
+.longchar {
+	color: #484343;
+	margin-left: 50px;
+	font-size: 16px; /* размер шрифта  */
+	font-weight: 400; /* Насыщенность шрифта */
+	line-height: 24px; /*    Высота текста */
+	text-align: left;	/* Расположение текста по левому краю */
+}
+
+.input p{
+
+}
+.input input[type="text"]{
+	text-transform: capitalize;
+	width: 800px;
+	height: 40px;
+	color: #7A000D;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.input input[placeholder="E-mail"]:focus {
+	color: red;
+	background-color: orange;
+}
+
+.footer {
+	height: 40px;
+	padding-top: 10px;	
+	padding-right: 10px;
+	border:1px solid black;
+	background-color: Grey;
+	text-align: right;
+	font-weight: bold;
+}
+
