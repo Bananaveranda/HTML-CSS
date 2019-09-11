@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet"> </head>
+
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="padding-site">
+                <div class="header clearfix">
+                    <a class="logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+                    <ul class="menu clearfix">
+                        <li class="menu-list"><a href="#" class="menu-link menu-link-active">HOME</a></li>
+                        <li class="menu-list"><a href="products.html" class="menu-link">PRODUCTS</a></li>
+                        <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li>
+                        <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li>
+                        <li class="menu-list"><a href="#" class="menu-link">CONTACT</a></li>
+                        <li class="menu-list"><a href="#" class="menu-link-search"><img src="img/search.svg" alt="search"></a>
+                        </li>
+                    </ul>
+                </div>
+				<div class="slider-text">
+                <p class="slider-trending">TRENDING</p>
+                <h2 class="slider-h2">Fishnet Chair</h2>
+                <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                <a href="#" class="slider-button">Order Us</a>
+            </div>
+            <div class="pagination">
+                <a href="" class="circle"></a>
+                <a href="" class="circle circle-active"></a>
+                <a href="" class="circle"></a>
+            </div>
+			
+                <div class="hero">
+                    <h1 class="hero-title">Our Products Range</h1> </div>
+                <div class="tab-controll clearfix">
+                    <ul>
+                        <li class="tab-list"><a href="#" class="tab-link tab-link-active">All</a></li>
+                        <li class="tab-list"><a href="#" class="tab-link">HOME</a></li>
+                        <li class="tab-list"><a href="#" class="tab-link">OFFICE</a></li>
+                        <li class="tab-list"><a href="#" class="tab-link">FURNITURE</a></li>
+                        <li class="tab-list"><a href="#" class="tab-link">MODERN</a></li>
+                        <li class="tab-list"><a href="#" class="tab-link">CLASSIC</a></li>
+                    </ul>
+                </div>
+                <div class="products"></div>
+                <div class="set1 clearfix">
+                    <a href="#" class="product"><img src="catalog/products/set-1/product-11.jpg" alt="product-11"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-1/product-21.jpg" alt="product-21"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-1/product-31.jpg" alt="product-31"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-1/product-41.jpg" alt="product-"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-1/product-5.jpg" alt="product-5"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-1/product-6.jpg" alt="product-6"></a>
+                </div>
+                <div class="set2 clearfix">
+                    <a href="#" class="product"><img src="catalog/products/set-2/product-11.jpg" alt="product-11"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-2/product-21.jpg" alt="product-21"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-2/product-31.jpg" alt="product-31"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-2/product-41.jpg" alt="product-"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-2/product-5.jpg" alt="product-5"></a>
+                    <a href="#" class="product"><img src="catalog/products/set-2/product-6.jpg" alt="product-6"></a>
+                </div>
+                <div class="pagination">
+                    <a href="#" class="load"><img src="img/load.png" alt="load"></a>
+                </div>
+            </div>
+            <div class="promo clearfix">
+                <a class="promo-link" href="#"><img class="promo-img1" src="catalog/promo-products/promo-img1.jpg" alt="promo-img1"></a><a class="promo-link" href="#"><img class="promo-img2" src="catalog/promo-products/promo-img2.jpg" alt="promo-img2"></a>
+                <div class="promo-block">
+                    <div class="exclusive">EXCLUSIVE</div>
+                    <div class="promo-h2">Fishnet Chair</div>
+                    <div class="promo-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</div>
+                    <a class="button" href="#">ORDER US ></a>
+                </div>
+            </div>
+           
+            <div class="footer clearfix">
+                <div class="contact-us">
+                    <h3 class="footer-h3">CONTACT US</h3>
+                    <p class="footer-p">132A Bridge Road Richmond VIC Australia.</p>
+                    <p class="footer-p">Talk to us on 1300 132
+                        <br>info@interior.com</p>
+                </div>
+                <div class="info">
+                    <h3 class="footer-h3">Useful Information</h3>
+                    <ul class="info-block">
+                        <li class="footer-list"><a class="footer-link" href="#">Sales terms</a></li>
+                         <li class="footer-list"><a class="footer-link" href="#">Customer care</a></li>
+                         <li class="footer-list"><a class="footer-link" href="#">Delivery</a></li>
+                    </ul>
+                    <ul class="info-block info-block2"> 
+                        <li class="footer-list"><a class="footer-link" href="#" class="info">Architect accounts</a> </li>
+                        <li class="footer-list"><a class="footer-link" href="#" class="info">Careers</a></li> 
+                        <li class="footer-list"><a class="footer-link" href="#" class="info">Exchanges & returns</a></li> 
+                    </ul>
+                </div>
+                <div class="in-touch clearfix">
+                    <h3 class="footer-h3">Let’s Stay in Touch!</h3>
+                    <p class="footer-p">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                    <input class="input" type="text" placeholder="your email address"> 
+                </div>
+                <div class="foot clearfix">
+                    <div class="copy">&copy; Copyright - INTERIOR 2016. All Rights Reserved.</div> <img class="links" src="img/social-links.png" alt="social-links">
+                    <div class="terms">Terms & Conditions / Privacy policy & Cookies</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
