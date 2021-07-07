@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop: Catalog</title>
+</head>
+<body>
+	<div class = "menu">
+		<h4>МЕНЮ</h4>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><p>Каталог</p></li>
+			<li><a href="contacts.html">Контакты</a></li>    
+		</ul> 
+	</div>
+	<div class="mainbody">
+		<hr>
+		<h1>Каталог</h1>
+		<p>
+			<a href="art1.html"><img src="img/spartan%20sport.jpg" alt="suunto spartan sport"></a>
+			<a href="art2.html"><img src="img/spartan%20ultra.jpg" alt="suunto spartan ultra"></a>
+			<a href="art3.html"><img src="img/spartan%20trainer.jpg" alt="suunto spartan trainer"></a>
+		</p>
+	</div>
+	
+    <p id="footer">&copy; Все права защищены</p>
+    
+</body>
+</html>

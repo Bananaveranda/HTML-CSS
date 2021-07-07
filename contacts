@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title>Online-shop:contacts</title>
+</head>
+<body>
+	<div class = "menu">
+		<h4>МЕНЮ</h4>
+		<ul>
+			<li><a href="index.html">Главная</a></li><br>
+			<li><a href="catalog.html">Каталог</a></li>
+			<li><p>Контакты</p></li>    
+		</ul> 
+	</div>
+	<div class="mainbody">
+		<hr>
+		<h1>Контакты</h1>
+		<p><i>Feel comfortable to ask for advice, if you need it.</i></p>
+		<p>Our contact phone is <b>+3 999 999 50</b></p>
+		<p><b>Пожалуйста, заполните форму ниже о качестве обслуживания. Это сделает наш магазин ещё лучше.</b></p>
+		<div class="input">
+			<form action=""> 
+				<i>Ваше имя:</i> <input type="text" placeholder="Ваше имя" align="right"><br>
+				<i>Ваш E-mail:</i> <input type="text" placeholder="E-mail"><br>
+				<i>Ваш пол:</i> <input type="radio" name="pol"> Male <input type="radio" name="pol"> Female <br>
+				<p>
+				Оцените качество обслуживания:   <br>
+				<input type="radio" name="value"> Отлично <br>
+				<input type="radio" name="value"> Хорошо <br>
+				<input type="radio" name="value"> Удовлетворительно <br>
+				Не удовлетворительно: опишите, что Вам не понравилось <input type="text" name="value"><br>
+				<br>		
+				<input type="submit" value="Отправить"><input type="reset" value="Сбросить">
+			</form>
+		</div>
+	</div>
+	
+	<p id="footer">&copy; Все права защищены</p>
+ 
+</body>
+</html>
